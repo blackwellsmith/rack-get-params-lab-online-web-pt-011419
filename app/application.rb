@@ -27,6 +27,7 @@ class Application
         if @@items.include?(cart_addition)
           @@cart << cart_addition
           
+          
         end
     else
       resp.write "Path Not Found"
