@@ -29,7 +29,7 @@ class Application
           resp.write "added #{cart_addition}"
         else resp.write "We don't have that item"
         end
-    else
+      else
       resp.write "Path Not Found"
     end
 
